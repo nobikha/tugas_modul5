@@ -27,19 +27,19 @@ namespace tugas_modul5_kel49_Nobi_Umi
             Console.Write("|     Terima kasih telah menabung di Bank49     |\n");
             Console.Write("|===============================================|\n");
         }
-        public void persen10(int uang, int lama)
+        public void persen10(float uang, float lama)
         {
             Console.Write("\n|================================================\n");
             Console.Write("|Jumlah uang tabungan Anda selama " + lama + " bulan adalah\n");
             Console.Write("|Rp. " + (uang + (uang * lama * 0.1)));
         }
-        public void persen20(int uang, int lama)
+        public void persen20(float uang, float lama)
         {
             Console.Write("\n|================================================\n");
             Console.Write("|Jumlah uang tabungan Anda selama " + lama + " bulan adalah\n");
             Console.Write("|Rp. " + (uang + (uang * lama * 0.2)));
         }
-        public String ulang(int bulan, double total)
+        public String ulang(float bulan, double total)
         {
             return "|Jumlah uang Anda setelah " + bulan + " bulan adalah Rp. " + total;
         }

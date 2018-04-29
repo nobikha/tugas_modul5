@@ -8,11 +8,11 @@ namespace tugas_modul5_kel49_Nobi_Umi
 {
     class kelasrumus
     {
-        public double persen10(int uang, int bulan)
+        public double persen10(float uang, int bulan)
         {
             return uang + (uang * bulan * 0.1);
         }
-        public double persen20(int uang, int bulan)
+        public double persen20(float uang, int bulan)
         {
             return uang + (uang * bulan * 0.2);
         }

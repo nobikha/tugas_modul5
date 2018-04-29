@@ -12,15 +12,15 @@ namespace tugas_modul5_kel49_Nobi_Umi
             kelasoutput baca = new kelasoutput();
             baca.awal();
             kelasinput masuk = new kelasinput();
-            int uang, lama;
+            float uang, lama;
             string input;
             Console.Write("|Jumlah uang yang ditabung    : Rp. ");
             input = Console.ReadLine();
-            int.TryParse(input, out uang);
+            float.TryParse(input, out uang);
             Console.Write("|===============================================\n");
             Console.Write("|Lama Anda menabung (bulan)   : ");
             input = Console.ReadLine();
-            int.TryParse(input, out lama);
+            float.TryParse(input, out lama);
             Console.Write("|===============================================\n\n");
             if (uang <= 1000000)
             {
